@@ -1,0 +1,260 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+.pe{
+    margin: 0 auto;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+.wikiglobo{
+    width: 50px;
+    margin-top: 5px;
+}
+.wordmark{
+    margin-top: 10px;
+}
+
+.bar {
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.trilhas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(236, 236, 236, 0.61);
+    margin: 0px 40px;
+}
+
+h1 {
+    color: rgb(231, 99, 22);
+}
+
+h2 {
+    color: rgb(231, 99, 22);
+}
+
+
+.shippuden {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.naruto {
+    padding: 2px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 2px rgba(243, 83, 9, 0.814);
+    margin: 5px;
+}
+.naruto img {
+    width: 300px;
+}
+
+th {
+    background-color: rgba(248, 117, 17, 0.84);
+    padding: 5px;
+    gap: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+figure {
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+}
+
+.menu1 {
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.outros a{
+    padding: 5px;
+    gap: 10px;
+}
+
+.logos {
+    display: flex;
+}
+
+.psearch {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.extras a {
+    padding: 5px;
+}
+
+.top {
+    margin: 0px 40px;
+}
+
+.Arte {
+    background-color: rgba(255, 255, 0, 0.162);
+    padding: 0 5px;
+}
+
+.Ciênci {
+    border: solid 2px rgba(172, 255, 47, 0.55);
+}
+
+.Ciência {
+    background-color: rgba(172, 255, 47, 0.151);
+    padding: 0 5px;
+}
+
+.Biografia {
+    background-color: rgba(48, 216, 54, 0.096);
+    padding: 0 5px;
+}
+
+.Biografi {
+    border: solid 2px rgba(8, 255, 8, 0.215);
+}
+
+.Filosofia {
+    background-color: rgba(35, 203, 195, 0.13);
+    padding: 0 5px;
+}
+
+.Filosofi {
+    border: solid 2px rgba(35, 203, 195, 0.272);
+}
+
+.Geografia {
+    background-color: rgba(135, 196, 250, 0.32);
+    padding: 0 5px;
+
+}
+
+.Geografi {
+    border: solid 2px rgba(135, 196, 250, 0.582);
+
+}
+
+.História {
+    background-color: rgba(114, 127, 229, 0.226);
+    padding: 0 5px;
+}
+
+.Históri {
+    border: solid 2px rgba(114, 127, 229, 0.354);
+}
+
+.Matemática {
+    background-color: rgba(145, 114, 229, 0.16);
+    padding: 0 5px;
+
+}
+
+.Matemátic {
+    border: solid 2px rgba(145, 114, 229, 0.336);
+}
+
+.Sociedade {
+    background-color: rgba(204, 114, 229, 0.183);
+    padding: 0 5px;
+
+}
+
+.Sociedad {
+    border: solid 2px rgba(204, 114, 229, 0.299);
+}
+
+.Tecnologia {
+    background-color: rgba(229, 114, 168, 0.251);
+    padding: 0 5px;
+
+}
+
+.Tecnologi {
+    border: solid 2px rgba(229, 114, 168, 0.272);
+}
+
+nav {
+    margin-top: 30px;
+    display: block;
+    padding: 20px;
+    height: 95%;
+    box-shadow: 1px 1px 9px 1px rgba(164, 162, 162, 0.381);
+}
+.footer {
+    min-height: 150px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.archors {
+    border: solid 1px rgba(245, 126, 8, 0.891);
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 4px;
+    height: 98%;
+}
+.def{
+    display: flex;
+    
+    
+    
+}
+
+table {
+    padding: 5px;
+    justify-content: left;
+    justify-items: left;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.footer {
+    padding: 30px;
+    margin-left: 10px;
+    display: block;
+    background-color: lightgray;
+}
+
+td {
+    border-radius: 2px;
+}
+li{
+    padding-left: 15px;
+}
